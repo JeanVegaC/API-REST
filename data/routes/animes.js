@@ -6,6 +6,7 @@ const animes = require('../animes.json')
 
 router.get('/', (req,res)=>{  
     res.send(animes);
+    console.log('Entre'+animes)
 })
 
 router.get('/animes', (req,res)=>{  
